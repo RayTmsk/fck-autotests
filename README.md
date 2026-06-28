@@ -1,0 +1,2 @@
+# fck-autotests
+playwright tests
