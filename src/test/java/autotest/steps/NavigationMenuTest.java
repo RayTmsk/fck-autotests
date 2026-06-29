@@ -9,12 +9,10 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 import static org.junit.Assert.assertTrue;
 
-@Component
 public class NavigationMenuTest {
     private final PageObject pageObject;
     private final PlaywrightConfig playwrightConfig;
